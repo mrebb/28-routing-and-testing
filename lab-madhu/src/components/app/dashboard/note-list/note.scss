@@ -1,0 +1,44 @@
+.delete{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    background-color: #D2D2D2;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 18px;
+    cursor: pointer;
+  }
+ 
+.notesDiv {
+	min-height: 300px;
+	position: relative;
+  text-align: center;
+}
+.noteDetailedDiv{
+    position:absolute; 
+    left:400px; top:400px;
+
+}
+.notesForm {
+  display: inline-block;
+  padding: 20px;
+  border:1px solid rgb(22, 22, 186);
+}
+.item_center{
+    display: inline-block;
+}
+label {
+  float: left;
+  margin: 0 5px;
+}
+textarea {
+    width: 200;
+    height: 400;
+    display: block;
+  }
+input {
+  width: 150px;
+  height: 30;
+  display: block;
+}
