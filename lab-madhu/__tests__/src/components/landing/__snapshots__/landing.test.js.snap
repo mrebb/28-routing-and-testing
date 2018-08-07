@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Landing/> (Snapshot Test) renders right 1`] = `
+Array [
+  <main>
+    <div>
+      <li
+        className=""
+        role="presentation"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+      >
+        <a
+          href="/dashboard"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Dashboard
+        </a>
+      </li>
+    </div>
+    <div>
+      <h2>
+        Welcome to notes app
+      </h2>
+      <p>
+        This app lets you do following actions on notes through dashboard.
+        <br />
+        <br />
+        <li>
+          create notes
+        </li>
+        <li>
+          view notes
+        </li>
+        <li>
+          delete notes
+        </li>
+      </p>
+    </div>
+  </main>,
+  <footer>
+    <h3 />
+  </footer>,
+]
+`;
